@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ITOW ESPORT - Accueil</title>
+<link rel="icon" href="https://i.imgur.com/JYeZGjc.png" />
+<style>
+:root{--bg:#070709;--panel:#120614;--accent:#9b59b6;--accent-2:#b788ff;--muted:#cfcbe0}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:#fff;line-height:1.45}
+header{display:flex;align-items:center;justify-content:space-between;padding:16px 28px;background:linear-gradient(90deg,#0f0710, #120614);border-bottom:3px solid var(--accent)}
+.brand{display:flex;gap:12px;align-items:center}
+.brand img{height:54px}
+nav a{color:var(--accent);text-decoration:none;margin:0 10px;font-weight:700}
+nav a:hover{color:var(--accent-2)}
+.hero{padding:80px 20px;text-align:center;background:linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),url('https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=1600&q=80') center/cover}
+.hero h1{font-size:2.6rem;margin:8px 0;color:#fff;text-shadow:0 6px 30px rgba(0,0,0,0.7)}
+.hero p{color:var(--muted);font-size:1.05rem;margin:0 0 18px}
+.cta{display:inline-block;padding:12px 20px;border-radius:10px;background:var(--accent);color:#fff;font-weight:800;text-decoration:none}
+main{max-width:1100px;margin:36px auto;padding:0 20px}
+.card{background:linear-gradient(180deg,var(--panel),#15051a);border-radius:12px;padding:18px;margin:18px 0;border:1px solid rgba(255,255,255,0.03)}
+h2{color:var(--accent);margin:0 0 8px}
+ul{margin:8px 0 0 18px}
+footer{padding:22px;text-align:center;background:#0f0710;border-top:3px solid var(--accent);margin-top:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.small{font-size:0.92rem;color:var(--muted)}
+a.link{color:var(--accent);text-decoration:none}
+@media(max-width:700px){header{flex-direction:column;gap:12px}nav{display:flex;flex-wrap:wrap;justify-content:center}}
+</style>
+</head>
+<body>
+<header>
+<div class="brand">
+<img src="https://i.imgur.com/JYeZGjc.png" alt="Logo ITOW ESPORT"/>
+<div>
+<div style="font-weight:800;font-size:1.05rem">ITOW ESPORT</div>
+<div class="small">Compétition • Ambition • RLCS 2027</div>
+</div>
+</div>
+<nav>
+<a href="index.html">Accueil</a>
+<a href="rosters.html">Rosters</a>
+<a href="staff.html">Staff</a>
+<a href="objectifs.html">Objectifs</a>
+<a href="news.html">News</a>
+<a href="galerie.html">Galerie</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+
+<section class="hero">
+<h1>Bienvenue chez ITOW ESPORT</h1>
+<p>Structure Rocket League dédiée à la progression et à la compétition — objectif principal : RLCS 2027.</p>
+<a class="cta" href="rosters.html">Découvrir nos rosters</a>
+</section>
+
+
+<main>
+<div class="card">
+<h2>À propos</h2>
+<p class="small">ITOW ESPORT est une structure esport professionnelle dédiée à Rocket League. Nous offrons un encadrement complet pour nos joueurs : entraînements structurés, coaching dédié, suivi performance et opportunités compétitives. Notre but : accompagner nos joueurs et notre staff vers une présence durable sur la scène nationale et internationale.</p>
+</div>
+
+
+<div class="grid">
+<div class="card">
+<h2>Rosters</h2>
+<p class="small">Trois niveaux, une ambition commune : se professionnaliser et performer.</p>
+<ul>
+<li>Grand Champion — Compétitions régulières et expérience nationale</li>
+<li>Champion — En pleine progression, en apprentissage intensif</li>
+<li>Supersonic Legend — Niveau élite, prêts pour les formats internationaux</li>
+</ul>
+</div>
+</html>
